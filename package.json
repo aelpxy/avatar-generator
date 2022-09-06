@@ -1,0 +1,33 @@
+{
+  "name": "avatar-generator",
+  "version": "1.0.0",
+  "description": "Generate pictures based on string",
+  "private": true,
+  "main": "./src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "NODE_ENV=production && node build/index.js",
+    "dev": "NODE_ENV=development && nodemon ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aelpxy/avatar-generator.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Aelpxy/avatar-generator/issues"
+  },
+  "homepage": "https://github.com/Aelpxy/avatar-generator#readme",
+  "dependencies": {
+    "color-hash": "^2.0.1",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@types/color-hash": "^1.0.2",
+    "@types/express": "^4.17.13",
+    "@types/node": "^18.7.14",
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.2"
+  }
+}
