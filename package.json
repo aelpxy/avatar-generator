@@ -1,7 +1,7 @@
 {
   "name": "avatar-generator",
   "version": "1.0.0",
-  "description": "Generate pictures based on string",
+  "description": "Generate gradient avatars on demand.",
   "private": true,
   "main": "./src/index.ts",
   "scripts": {
