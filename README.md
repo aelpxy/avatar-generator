@@ -1,3 +1,1 @@
 # Avatar Generator
-
-## Getting Started
