@@ -5,7 +5,7 @@ import generateImage from "./generate";
 const app: Express = express();
 app.use(express.json());
 
-const Port: number = 5000 || process.env.PORT;
+const Port: number = Number(process.env.PORT) || 5000;
 
 app.get("/:id", (req: Request, res: Response) => {
   res.setHeader("Content-Type", "image/svg+xml");
