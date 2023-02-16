@@ -30,6 +30,6 @@ func main() {
 		w.Write([]byte(lib.GenerateImage(query)))
 	})
 
-	log.Printf("Listening on http://localhost%s \n", PORT)
+	log.Printf("Listening on http://0.0.0.0%s \n", PORT)
 	http.ListenAndServe(PORT, nil)
 }
